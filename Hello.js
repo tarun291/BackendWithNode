@@ -9,7 +9,7 @@ function fun(name) {
 // var x=fun("Tarun");
 // x();
 
-var x = function d() {
+var x = function demo1() {
     console.log("HI");
 }
 x();

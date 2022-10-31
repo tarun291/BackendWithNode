@@ -57,7 +57,7 @@ async function processing(){
     let file=await writeFile(downloadData);
     let uploadResponse=await uploadData(file,"www.google.drive.com");
     console.log("Task is done");
-    return false;
+    return true;
 }
 console.log("start");
 processing();
